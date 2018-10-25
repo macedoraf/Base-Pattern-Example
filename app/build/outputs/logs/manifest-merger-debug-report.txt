@@ -6,6 +6,8 @@ INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src
 INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src/main/AndroidManifest.xml:2:1-21:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c4bbdfd7550aef8afeb58b2257fb9a44/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3c5f593cea9cbfd5123ce2e3f279342b/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/e1cef3dfdbdaee439f7073dae24f6889/AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/13843264ecc8ac380e24892e91c86599/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bf7dde253f042b5c01e4d9837c3a4ca0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b7f1b4d7805426dbaaba1bfc63fca784/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5b5e0c3a794950a74eeb2e770e3562da/AndroidManifest.xml:17:1-22:12
@@ -27,10 +29,10 @@ MERGED from [com.android.support:documentfile:28.0.0] /Users/rafael.macedo/.grad
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bb5952d695ba3ebebdf70b4e359d5502/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6fff96a83e36766c29415d04ea6cc359/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49621055096cd293f709db6417cfaf37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bfb47143487fe4613af42860bf7f5ab6/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/701664997f486179fc8796446400cf41/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a37c0f4cdeeb74248c68736d66124c5c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bca121e4e265c30899cf10a6e1a279f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bfb47143487fe4613af42860bf7f5ab6/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src/main/AndroidManifest.xml:2:1-21:12
@@ -92,6 +94,10 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rafael.macedo/.grad
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c4bbdfd7550aef8afeb58b2257fb9a44/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3c5f593cea9cbfd5123ce2e3f279342b/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3c5f593cea9cbfd5123ce2e3f279342b/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/e1cef3dfdbdaee439f7073dae24f6889/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/e1cef3dfdbdaee439f7073dae24f6889/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/13843264ecc8ac380e24892e91c86599/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/13843264ecc8ac380e24892e91c86599/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bf7dde253f042b5c01e4d9837c3a4ca0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bf7dde253f042b5c01e4d9837c3a4ca0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b7f1b4d7805426dbaaba1bfc63fca784/AndroidManifest.xml:20:5-44
@@ -134,14 +140,14 @@ MERGED from [com.android.support:print:28.0.0] /Users/rafael.macedo/.gradle/cach
 MERGED from [com.android.support:print:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6fff96a83e36766c29415d04ea6cc359/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49621055096cd293f709db6417cfaf37/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49621055096cd293f709db6417cfaf37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bfb47143487fe4613af42860bf7f5ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bfb47143487fe4613af42860bf7f5ab6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/701664997f486179fc8796446400cf41/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/701664997f486179fc8796446400cf41/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a37c0f4cdeeb74248c68736d66124c5c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a37c0f4cdeeb74248c68736d66124c5c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bca121e4e265c30899cf10a6e1a279f4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bca121e4e265c30899cf10a6e1a279f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bfb47143487fe4613af42860bf7f5ab6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/rafael.macedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bfb47143487fe4613af42860bf7f5ab6/AndroidManifest.xml:20:5-44
 INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rafael.macedo/Documents/Github Projects/WorkHipster/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
