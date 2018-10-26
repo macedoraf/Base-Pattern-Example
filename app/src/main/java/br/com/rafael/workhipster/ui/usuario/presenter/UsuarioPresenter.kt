@@ -18,10 +18,10 @@ class UsuarioPresenter(view: UsuarioView) : BasePresenter<UsuarioView>(view) {
         view.showLoading()
 
         addSubscription(api.getUsuarios()
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .doOnTerminate { view.hideLoading() }
-            .subscribe({ view.update() }, { view.onError(it) })
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .doOnTerminate { view.hideLoading() }
+                .subscribe({ view.update(it.dataList) }, { view.onError(it) })
         )
     }
 

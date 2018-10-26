@@ -10,12 +10,12 @@ import br.com.rafael.workhipster.ui.usuario.view.UsuarioView
 class UsuarioAdapter(val view: UsuarioView) : RecyclerView.Adapter<UsuarioHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, container: Int): UsuarioHolder =
-        UsuarioHolder(LayoutInflater.from(parent.context).inflate(R.layout.lst_usuario, parent, false))
+            UsuarioHolder(LayoutInflater.from(parent.context).inflate(R.layout.lst_usuario, parent, false))
 
     override fun getItemCount(): Int = view.getUsuarioList().size
 
     override fun onBindViewHolder(holder: UsuarioHolder, position: Int) {
-        view.getUsuarioList()[position]
+        holder.bind(view.getUsuarioList()[position])
 
     }
 

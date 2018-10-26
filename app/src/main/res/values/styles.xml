@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="AppTheme.Fonte.Padrao">
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="AppTheme.Fonte.Padrao.Bold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="AppTheme.Fonte">
+        <item name="android:textColor">@color/preto</item>
+    </style>
+
 </resources>

@@ -5,12 +5,14 @@ import br.com.rafael.workhipster.model.Usuario
 
 interface UsuarioView : BaseView {
 
-    fun update()
+    fun update(listUsuario:List<Usuario> )
 
     fun showLoading()
 
     fun hideLoading()
 
     fun getUsuarioList(): List<Usuario>
+
+    fun atualizaAdapter()
 
 }

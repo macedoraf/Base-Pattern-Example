@@ -1,6 +1,7 @@
 package br.com.rafael.workhipster.ui.usuario.fragment
 
 import android.os.Bundle
+import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -17,12 +18,13 @@ import br.com.rafael.workhipster.ui.usuario.view.UsuarioView
 class ListaUsuarioFragment : BaseFragment<UsuarioPresenter>(), UsuarioView {
 
 
-
-
     lateinit var recyclerView: RecyclerView
+
     lateinit var progresssBar: ProgressBar
-    lateinit var adapter: UsuarioAdapter
-    private lateinit var usuarioList: List<Usuario>
+
+    private val adapter by lazy { UsuarioAdapter(this) }
+
+    private lateinit var usuarioList: MutableList<Usuario>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +41,17 @@ class ListaUsuarioFragment : BaseFragment<UsuarioPresenter>(), UsuarioView {
     private fun init(view: View) {
         recyclerView = view.findViewById(R.id.recyclerView)
         progresssBar = view.findViewById(R.id.progressBar)
+        setupRecyclerView()
+    }
+
+    private fun setupRecyclerView() {
+        recyclerView.layoutManager = LinearLayoutManager(context)
+        recyclerView.adapter = adapter
+    }
+
+    override fun onResume() {
+        super.onResume()
+        presenter.getDadosUsuario()
     }
 
 
@@ -48,9 +61,19 @@ class ListaUsuarioFragment : BaseFragment<UsuarioPresenter>(), UsuarioView {
         Toast.makeText(context, err.message, Toast.LENGTH_LONG).show()
     }
 
-    override fun update() {
+
+    override fun update(listUsuario: List<Usuario>) {
+        this.usuarioList.clear()
+        this.usuarioList.addAll(listUsuario)
+        atualizaAdapter()
 
     }
+
+
+    override fun atualizaAdapter() {
+        adapter.notifyDataSetChanged()
+    }
+
 
     override fun showLoading() {
         progresssBar.visibility = View.VISIBLE
